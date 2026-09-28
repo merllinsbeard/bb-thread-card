@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="340" viewBox="0 0 1120 340" role="img" aria-labelledby="title desc">
+  <title id="title">Thread card for bb</title>
+  <desc id="desc">Know who moves next. Reply now, come back later, or archive the thread.</desc>
+  <rect width="1120" height="340" rx="20" fill="#13171c"/>
+  <circle cx="70" cy="57" r="5" fill="#a4dab0"/>
+  <text x="88" y="63" fill="#a4dab0" font-family="system-ui, sans-serif" font-size="16" letter-spacing="2">THREAD CARD / BB PLUGIN</text>
+  <text x="60" y="134" fill="#f0f2f4" font-family="system-ui, sans-serif" font-size="48" font-weight="650">Know who moves next.</text>
+  <text x="60" y="176" fill="#a9b0ba" font-family="system-ui, sans-serif" font-size="21">Your agents report. You decide what happens next.</text>
+  <g font-family="system-ui, sans-serif" font-size="18">
+    <rect x="60" y="224" width="200" height="60" rx="12" fill="#a4dab0"/>
+    <text x="87" y="261" fill="#18251b" font-weight="600">01   Reply</text>
+    <rect x="276" y="224" width="306" height="60" rx="12" fill="#222830" stroke="#3b444f"/>
+    <text x="302" y="261" fill="#f0f2f4">02   Remind me later</text>
+    <rect x="598" y="224" width="214" height="60" rx="12" fill="#222830" stroke="#3b444f"/>
+    <text x="624" y="261" fill="#f0f2f4">03   Archive</text>
+  </g>
+  <text x="1060" y="283" text-anchor="end" fill="#8e99a6" font-family="system-ui, sans-serif" font-size="14">OPEN SOURCE · MIT</text>
+</svg>

@@ -1,0 +1,1012 @@
+[
+  {
+    "seq": 1,
+    "type": "client/turn/requested",
+    "createdAt": 1735689600000,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0150",
+      "initiator": "user",
+      "source": "spawn",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 15,
+    "type": "turn/started",
+    "createdAt": 1735689613969,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0151"
+    },
+    "data": {}
+  },
+  {
+    "seq": 16,
+    "type": "turn/input/accepted",
+    "createdAt": 1735689613969,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0151"
+    },
+    "data": {
+      "clientRequestId": "fixture0150"
+    }
+  },
+  {
+    "seq": 101,
+    "type": "client/turn/requested",
+    "createdAt": 1735689738085,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0152",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 103,
+    "type": "turn/input/accepted",
+    "createdAt": 1735689742895,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0151"
+    },
+    "data": {
+      "clientRequestId": "fixture0152"
+    }
+  },
+  {
+    "seq": 104,
+    "type": "turn/completed",
+    "createdAt": 1735689753876,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0151"
+    },
+    "data": {
+      "status": "interrupted"
+    }
+  },
+  {
+    "seq": 106,
+    "type": "system/thread/interrupted",
+    "createdAt": 1735689753876,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "reason": "host-daemon-restarted"
+    }
+  },
+  {
+    "seq": 107,
+    "type": "turn/completed",
+    "createdAt": 1735689754002,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0151"
+    },
+    "data": {
+      "status": "failed"
+    }
+  },
+  {
+    "seq": 109,
+    "type": "client/turn/requested",
+    "createdAt": 1735689754126,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0153",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 113,
+    "type": "turn/started",
+    "createdAt": 1735689764425,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0154"
+    },
+    "data": {}
+  },
+  {
+    "seq": 114,
+    "type": "turn/input/accepted",
+    "createdAt": 1735689764425,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0154"
+    },
+    "data": {
+      "clientRequestId": "fixture0153"
+    }
+  },
+  {
+    "seq": 141,
+    "type": "client/turn/requested",
+    "createdAt": 1735689777670,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0155",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 142,
+    "type": "turn/input/accepted",
+    "createdAt": 1735689777729,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0154"
+    },
+    "data": {
+      "clientRequestId": "fixture0155"
+    }
+  },
+  {
+    "seq": 165,
+    "type": "client/turn/requested",
+    "createdAt": 1735689824657,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0156",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 186,
+    "type": "turn/input/accepted",
+    "createdAt": 1735689824751,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0154"
+    },
+    "data": {
+      "clientRequestId": "fixture0156"
+    }
+  },
+  {
+    "seq": 242,
+    "type": "turn/completed",
+    "createdAt": 1735689886933,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0154"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 244,
+    "type": "client/turn/requested",
+    "createdAt": 1735689962147,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0157",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 245,
+    "type": "turn/started",
+    "createdAt": 1735689984693,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0158"
+    },
+    "data": {}
+  },
+  {
+    "seq": 246,
+    "type": "turn/input/accepted",
+    "createdAt": 1735689984693,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0158"
+    },
+    "data": {
+      "clientRequestId": "fixture0157"
+    }
+  },
+  {
+    "seq": 276,
+    "type": "client/turn/requested",
+    "createdAt": 1735690016460,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0159",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 277,
+    "type": "turn/input/accepted",
+    "createdAt": 1735690016516,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0158"
+    },
+    "data": {
+      "clientRequestId": "fixture0159"
+    }
+  },
+  {
+    "seq": 302,
+    "type": "turn/completed",
+    "createdAt": 1735690049866,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0158"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 304,
+    "type": "turn/started",
+    "createdAt": 1735690141732,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0160"
+    },
+    "data": {}
+  },
+  {
+    "seq": 331,
+    "type": "turn/completed",
+    "createdAt": 1735690150819,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0160"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 333,
+    "type": "turn/started",
+    "createdAt": 1735690434940,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0161"
+    },
+    "data": {}
+  },
+  {
+    "seq": 354,
+    "type": "turn/completed",
+    "createdAt": 1735690439228,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0161"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 356,
+    "type": "turn/started",
+    "createdAt": 1735690616008,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0162"
+    },
+    "data": {}
+  },
+  {
+    "seq": 376,
+    "type": "turn/completed",
+    "createdAt": 1735690617842,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0162"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 378,
+    "type": "turn/started",
+    "createdAt": 1735690660974,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0163"
+    },
+    "data": {}
+  },
+  {
+    "seq": 388,
+    "type": "turn/completed",
+    "createdAt": 1735690661830,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0163"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 390,
+    "type": "turn/started",
+    "createdAt": 1735690697481,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0164"
+    },
+    "data": {}
+  },
+  {
+    "seq": 411,
+    "type": "turn/completed",
+    "createdAt": 1735690704203,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0164"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 413,
+    "type": "turn/started",
+    "createdAt": 1735690744167,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0165"
+    },
+    "data": {}
+  },
+  {
+    "seq": 442,
+    "type": "turn/completed",
+    "createdAt": 1735690750382,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0165"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 446,
+    "type": "turn/started",
+    "createdAt": 1735692566029,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0166"
+    },
+    "data": {}
+  },
+  {
+    "seq": 524,
+    "type": "system/interaction/lifecycle",
+    "createdAt": 1735692666226,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0166"
+    },
+    "data": {
+      "interaction": {
+        "id": "fixture0167",
+        "status": "pending",
+        "payload": {
+          "kind": "user_question"
+        }
+      }
+    }
+  },
+  {
+    "seq": 527,
+    "type": "system/interaction/lifecycle",
+    "createdAt": 1735715755187,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0166"
+    },
+    "data": {
+      "interaction": {
+        "id": "fixture0167",
+        "status": "resolving",
+        "payload": {
+          "kind": "user_question"
+        }
+      }
+    }
+  },
+  {
+    "seq": 528,
+    "type": "system/interaction/lifecycle",
+    "createdAt": 1735715755197,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0166"
+    },
+    "data": {
+      "interaction": {
+        "id": "fixture0167",
+        "status": "resolved",
+        "payload": {
+          "kind": "user_question"
+        }
+      }
+    }
+  },
+  {
+    "seq": 529,
+    "type": "client/turn/requested",
+    "createdAt": 1735715755238,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0168",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 531,
+    "type": "turn/input/accepted",
+    "createdAt": 1735715755301,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0166"
+    },
+    "data": {
+      "clientRequestId": "fixture0168"
+    }
+  },
+  {
+    "seq": 546,
+    "type": "client/turn/requested",
+    "createdAt": 1735715925348,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0169",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 548,
+    "type": "turn/input/accepted",
+    "createdAt": 1735715925424,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0166"
+    },
+    "data": {
+      "clientRequestId": "fixture0169"
+    }
+  },
+  {
+    "seq": 582,
+    "type": "turn/completed",
+    "createdAt": 1735716017385,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0166"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 584,
+    "type": "turn/started",
+    "createdAt": 1735716579127,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0170"
+    },
+    "data": {}
+  },
+  {
+    "seq": 649,
+    "type": "turn/completed",
+    "createdAt": 1735716631735,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0170"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 651,
+    "type": "turn/started",
+    "createdAt": 1735716697116,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0171"
+    },
+    "data": {}
+  },
+  {
+    "seq": 660,
+    "type": "turn/completed",
+    "createdAt": 1735716698080,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0171"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 664,
+    "type": "turn/started",
+    "createdAt": 1735717827119,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0172"
+    },
+    "data": {}
+  },
+  {
+    "seq": 720,
+    "type": "turn/completed",
+    "createdAt": 1735717862377,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0172"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 722,
+    "type": "turn/started",
+    "createdAt": 1735718247315,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0173"
+    },
+    "data": {}
+  },
+  {
+    "seq": 732,
+    "type": "turn/completed",
+    "createdAt": 1735718248206,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0173"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 734,
+    "type": "turn/started",
+    "createdAt": 1735719247935,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0174"
+    },
+    "data": {}
+  },
+  {
+    "seq": 744,
+    "type": "turn/completed",
+    "createdAt": 1735719248725,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0174"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 746,
+    "type": "turn/started",
+    "createdAt": 1735719614482,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0175"
+    },
+    "data": {}
+  },
+  {
+    "seq": 767,
+    "type": "turn/completed",
+    "createdAt": 1735719627199,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0175"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 771,
+    "type": "turn/started",
+    "createdAt": 1735719648022,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0176"
+    },
+    "data": {}
+  },
+  {
+    "seq": 797,
+    "type": "turn/completed",
+    "createdAt": 1735719660300,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0176"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 799,
+    "type": "turn/started",
+    "createdAt": 1735719764286,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0177"
+    },
+    "data": {}
+  },
+  {
+    "seq": 808,
+    "type": "turn/completed",
+    "createdAt": 1735719765048,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0177"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 810,
+    "type": "turn/started",
+    "createdAt": 1735720064349,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0178"
+    },
+    "data": {}
+  },
+  {
+    "seq": 820,
+    "type": "turn/completed",
+    "createdAt": 1735720065149,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0178"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 824,
+    "type": "turn/started",
+    "createdAt": 1735721471201,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0179"
+    },
+    "data": {}
+  },
+  {
+    "seq": 858,
+    "type": "turn/completed",
+    "createdAt": 1735721493714,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0179"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 860,
+    "type": "client/turn/requested",
+    "createdAt": 1735722231959,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0180",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 861,
+    "type": "turn/started",
+    "createdAt": 1735722248340,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0181"
+    },
+    "data": {}
+  },
+  {
+    "seq": 862,
+    "type": "turn/input/accepted",
+    "createdAt": 1735722248340,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0181"
+    },
+    "data": {
+      "clientRequestId": "fixture0180"
+    }
+  },
+  {
+    "seq": 890,
+    "type": "turn/completed",
+    "createdAt": 1735722268781,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0181"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 894,
+    "type": "client/turn/requested",
+    "createdAt": 1735723283686,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0182",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 895,
+    "type": "turn/started",
+    "createdAt": 1735723294156,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0183"
+    },
+    "data": {}
+  },
+  {
+    "seq": 896,
+    "type": "turn/input/accepted",
+    "createdAt": 1735723294156,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0183"
+    },
+    "data": {
+      "clientRequestId": "fixture0182"
+    }
+  },
+  {
+    "seq": 918,
+    "type": "client/turn/requested",
+    "createdAt": 1735723324506,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0184",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 919,
+    "type": "turn/input/accepted",
+    "createdAt": 1735723324578,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0183"
+    },
+    "data": {
+      "clientRequestId": "fixture0184"
+    }
+  },
+  {
+    "seq": 1889,
+    "type": "turn/completed",
+    "createdAt": 1735725833599,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0183"
+    },
+    "data": {
+      "status": "interrupted"
+    }
+  },
+  {
+    "seq": 1891,
+    "type": "system/thread/interrupted",
+    "createdAt": 1735725833599,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "reason": "host-daemon-restarted"
+    }
+  },
+  {
+    "seq": 1894,
+    "type": "client/turn/requested",
+    "createdAt": 1735725858482,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0185",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 1899,
+    "type": "turn/started",
+    "createdAt": 1735725873103,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0186"
+    },
+    "data": {}
+  },
+  {
+    "seq": 1900,
+    "type": "turn/input/accepted",
+    "createdAt": 1735725873103,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0186"
+    },
+    "data": {
+      "clientRequestId": "fixture0185"
+    }
+  },
+  {
+    "seq": 2152,
+    "type": "turn/completed",
+    "createdAt": 1735726612579,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0186"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 2154,
+    "type": "turn/started",
+    "createdAt": 1735727472228,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0187"
+    },
+    "data": {}
+  },
+  {
+    "seq": 2172,
+    "type": "turn/completed",
+    "createdAt": 1735727475340,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0187"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 2174,
+    "type": "turn/started",
+    "createdAt": 1735727490585,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0188"
+    },
+    "data": {}
+  },
+  {
+    "seq": 2184,
+    "type": "turn/completed",
+    "createdAt": 1735727492101,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0188"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 2188,
+    "type": "turn/started",
+    "createdAt": 1735728378563,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0189"
+    },
+    "data": {}
+  },
+  {
+    "seq": 2194,
+    "type": "provider/error",
+    "createdAt": 1735728378577,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0189"
+    },
+    "data": {
+      "detail": "You've hit your session limit"
+    }
+  },
+  {
+    "seq": 2195,
+    "type": "turn/completed",
+    "createdAt": 1735728378577,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0189"
+    },
+    "data": {
+      "status": "failed"
+    }
+  }
+]
