@@ -1,0 +1,77 @@
+{
+  "name": "bb-plugin-thread-card",
+  "version": "0.6.3",
+  "private": true,
+  "type": "module",
+  "description": "A Needs-you queue for bb: thread status, agent reports, reminders, and clear next actions.",
+  "engines": {
+    "bb": ">=0.43",
+    "bbPluginSdk": ">=0.5.9"
+  },
+  "bb": {
+    "name": "Thread card",
+    "description": "See which thread needs you. Reply, come back later, or archive it from one queue, with status cards and sidebar indicators.",
+    "branding": {
+      "icon": "CircleQuestion"
+    },
+    "server": "./server.ts",
+    "app": "./app.tsx",
+    "skills": []
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@get-bb/plugin-sdk": "0.5.9",
+    "@pierre/diffs": "^1.2.9",
+    "@radix-ui/react-alert-dialog": "^1.1.19",
+    "@radix-ui/react-context-menu": "^2.3.3",
+    "@radix-ui/react-dialog": "^1.1.19",
+    "@radix-ui/react-dropdown-menu": "^2.1.20",
+    "@radix-ui/react-hover-card": "^1.1.19",
+    "@radix-ui/react-menubar": "^1.1.20",
+    "@radix-ui/react-navigation-menu": "^1.2.18",
+    "@radix-ui/react-popover": "^1.1.19",
+    "@radix-ui/react-select": "^2.3.3",
+    "@radix-ui/react-tooltip": "^1.2.12",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.0.0",
+    "better-sqlite3": "^12.11.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cron-parser": "^5.10.1",
+    "hono": "^4.13.9",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sonner": "^1.7.4",
+    "tailwind-merge": "^3.4.0",
+    "typescript": "^5.7.0",
+    "vaul": "^1.1.2"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --experimental-strip-types test/*.test.ts",
+    "build": "bb plugin build ."
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merllinsbeard/bb-thread-card.git"
+  },
+  "homepage": "https://github.com/merllinsbeard/bb-thread-card#readme",
+  "bugs": {
+    "url": "https://github.com/merllinsbeard/bb-thread-card/issues"
+  },
+  "keywords": [
+    "bb",
+    "bb-plugin",
+    "ai-agents",
+    "thread-status",
+    "productivity"
+  ]
+}

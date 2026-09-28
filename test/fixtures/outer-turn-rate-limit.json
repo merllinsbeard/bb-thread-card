@@ -1,0 +1,1871 @@
+[
+  {
+    "seq": 1,
+    "type": "client/turn/requested",
+    "createdAt": 1735884301508,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0033",
+      "initiator": "user",
+      "source": "spawn",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 17,
+    "type": "turn/started",
+    "createdAt": 1735884304036,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0034"
+    },
+    "data": {}
+  },
+  {
+    "seq": 18,
+    "type": "turn/input/accepted",
+    "createdAt": 1735884304036,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0034"
+    },
+    "data": {
+      "clientRequestId": "fixture0033"
+    }
+  },
+  {
+    "seq": 696,
+    "type": "turn/completed",
+    "createdAt": 1735884535164,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0034"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 697,
+    "type": "client/turn/requested",
+    "createdAt": 1735885825640,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0035",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 698,
+    "type": "turn/started",
+    "createdAt": 1735885825760,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0036"
+    },
+    "data": {}
+  },
+  {
+    "seq": 699,
+    "type": "turn/input/accepted",
+    "createdAt": 1735885825760,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0036"
+    },
+    "data": {
+      "clientRequestId": "fixture0035"
+    }
+  },
+  {
+    "seq": 990,
+    "type": "turn/completed",
+    "createdAt": 1735886184333,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0036"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 991,
+    "type": "client/turn/requested",
+    "createdAt": 1735891142669,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0037",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 997,
+    "type": "turn/started",
+    "createdAt": 1735891144135,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0038"
+    },
+    "data": {}
+  },
+  {
+    "seq": 998,
+    "type": "turn/input/accepted",
+    "createdAt": 1735891144135,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0038"
+    },
+    "data": {
+      "clientRequestId": "fixture0037"
+    }
+  },
+  {
+    "seq": 1474,
+    "type": "item/started",
+    "createdAt": 1735891839990,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0038"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0039"
+      }
+    }
+  },
+  {
+    "seq": 2606,
+    "type": "item/started",
+    "createdAt": 1735894043608,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0038"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0040"
+      }
+    }
+  },
+  {
+    "seq": 3826,
+    "type": "item/started",
+    "createdAt": 1735896494236,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0038"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0041"
+      }
+    }
+  },
+  {
+    "seq": 4340,
+    "type": "turn/completed",
+    "createdAt": 1735897323907,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0038"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 4341,
+    "type": "client/turn/requested",
+    "createdAt": 1735899157601,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0042",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 4346,
+    "type": "turn/started",
+    "createdAt": 1735899159384,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0043"
+    },
+    "data": {}
+  },
+  {
+    "seq": 4347,
+    "type": "turn/input/accepted",
+    "createdAt": 1735899159384,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0043"
+    },
+    "data": {
+      "clientRequestId": "fixture0042"
+    }
+  },
+  {
+    "seq": 4376,
+    "type": "turn/completed",
+    "createdAt": 1735899206147,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0043"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 4377,
+    "type": "client/turn/requested",
+    "createdAt": 1735899437850,
+    "scope": {
+      "kind": "thread"
+    },
+    "data": {
+      "requestId": "fixture0044",
+      "initiator": "user",
+      "source": "tell",
+      "systemMessageKind": "unlabeled"
+    }
+  },
+  {
+    "seq": 4378,
+    "type": "turn/started",
+    "createdAt": 1735899437989,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0045"
+    },
+    "data": {}
+  },
+  {
+    "seq": 4379,
+    "type": "turn/input/accepted",
+    "createdAt": 1735899437989,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0045"
+    },
+    "data": {
+      "clientRequestId": "fixture0044"
+    }
+  },
+  {
+    "seq": 4799,
+    "type": "turn/started",
+    "createdAt": 1735900038262,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0046"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 5320,
+    "type": "turn/started",
+    "createdAt": 1735900306142,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0048"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 5428,
+    "type": "item/started",
+    "createdAt": 1735900338526,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0046"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0050"
+      }
+    }
+  },
+  {
+    "seq": 5833,
+    "type": "turn/completed",
+    "createdAt": 1735900506530,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0046"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 5951,
+    "type": "turn/started",
+    "createdAt": 1735900591458,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0051"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 5994,
+    "type": "item/started",
+    "createdAt": 1735900605330,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0045"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0052"
+      }
+    }
+  },
+  {
+    "seq": 6064,
+    "type": "item/started",
+    "createdAt": 1735900638472,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0048"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0053"
+      }
+    }
+  },
+  {
+    "seq": 6301,
+    "type": "item/started",
+    "createdAt": 1735900832820,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0051"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0054"
+      }
+    }
+  },
+  {
+    "seq": 6718,
+    "type": "turn/completed",
+    "createdAt": 1735900961137,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0048"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 6728,
+    "type": "turn/started",
+    "createdAt": 1735900971984,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0055"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 6970,
+    "type": "turn/completed",
+    "createdAt": 1735901016994,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0051"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 7342,
+    "type": "turn/completed",
+    "createdAt": 1735901187962,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0055"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 7360,
+    "type": "turn/started",
+    "createdAt": 1735901232859,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0056"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 7624,
+    "type": "turn/started",
+    "createdAt": 1735901466277,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0057"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 7701,
+    "type": "item/started",
+    "createdAt": 1735901490530,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0056"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0058"
+      }
+    }
+  },
+  {
+    "seq": 8434,
+    "type": "turn/completed",
+    "createdAt": 1735901828522,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0057"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 8457,
+    "type": "turn/started",
+    "createdAt": 1735901885110,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0059"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 8498,
+    "type": "item/started",
+    "createdAt": 1735901899194,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0059"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0060"
+      }
+    }
+  },
+  {
+    "seq": 8500,
+    "type": "turn/started",
+    "createdAt": 1735901899974,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0061"
+    },
+    "data": {
+      "parentToolCallId": "fixture0062"
+    }
+  },
+  {
+    "seq": 9158,
+    "type": "turn/completed",
+    "createdAt": 1735902141547,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0061"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 9820,
+    "type": "item/started",
+    "createdAt": 1735902398129,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0059"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0063"
+      }
+    }
+  },
+  {
+    "seq": 10632,
+    "type": "turn/completed",
+    "createdAt": 1735902908794,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0059"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 10667,
+    "type": "turn/started",
+    "createdAt": 1735902964647,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0064"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 10672,
+    "type": "item/started",
+    "createdAt": 1735902969948,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0045"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0065"
+      }
+    }
+  },
+  {
+    "seq": 11246,
+    "type": "item/started",
+    "createdAt": 1735903263850,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0064"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0066"
+      }
+    }
+  },
+  {
+    "seq": 11248,
+    "type": "item/started",
+    "createdAt": 1735903267194,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0056"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0067"
+      }
+    }
+  },
+  {
+    "seq": 11683,
+    "type": "turn/started",
+    "createdAt": 1735903480371,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0068"
+    },
+    "data": {
+      "parentToolCallId": "fixture0062"
+    }
+  },
+  {
+    "seq": 11942,
+    "type": "item/started",
+    "createdAt": 1735903555153,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0068"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0069"
+      }
+    }
+  },
+  {
+    "seq": 13822,
+    "type": "turn/completed",
+    "createdAt": 1735904256444,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0068"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 14466,
+    "type": "turn/completed",
+    "createdAt": 1735904553390,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0064"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 14517,
+    "type": "turn/started",
+    "createdAt": 1735904590513,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0070"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 14948,
+    "type": "item/started",
+    "createdAt": 1735904785526,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0056"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0071"
+      }
+    }
+  },
+  {
+    "seq": 15056,
+    "type": "item/started",
+    "createdAt": 1735904836670,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0070"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0072"
+      }
+    }
+  },
+  {
+    "seq": 15320,
+    "type": "item/started",
+    "createdAt": 1735904953734,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0045"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0073"
+      }
+    }
+  },
+  {
+    "seq": 17103,
+    "type": "turn/completed",
+    "createdAt": 1735905611723,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0070"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 17116,
+    "type": "turn/started",
+    "createdAt": 1735905622126,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0074"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 17124,
+    "type": "turn/started",
+    "createdAt": 1735905633236,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0075"
+    },
+    "data": {
+      "parentToolCallId": "fixture0062"
+    }
+  },
+  {
+    "seq": 17235,
+    "type": "item/started",
+    "createdAt": 1735905655998,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0075"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0076"
+      }
+    }
+  },
+  {
+    "seq": 17628,
+    "type": "turn/completed",
+    "createdAt": 1735905744025,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0056"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 17751,
+    "type": "turn/started",
+    "createdAt": 1735905798959,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0077"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 18570,
+    "type": "item/started",
+    "createdAt": 1735906104356,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0075"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0078"
+      }
+    }
+  },
+  {
+    "seq": 18670,
+    "type": "turn/completed",
+    "createdAt": 1735906113750,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0074"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 18751,
+    "type": "turn/started",
+    "createdAt": 1735906159784,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0079"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 19026,
+    "type": "item/started",
+    "createdAt": 1735906255280,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0079"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0080"
+      }
+    }
+  },
+  {
+    "seq": 19394,
+    "type": "item/started",
+    "createdAt": 1735906408219,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0077"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0081"
+      }
+    }
+  },
+  {
+    "seq": 19671,
+    "type": "turn/completed",
+    "createdAt": 1735906509701,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0077"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 20100,
+    "type": "turn/completed",
+    "createdAt": 1735906691916,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0079"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 20142,
+    "type": "item/started",
+    "createdAt": 1735906719228,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0075"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0082"
+      }
+    }
+  },
+  {
+    "seq": 20260,
+    "type": "turn/completed",
+    "createdAt": 1735906807576,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0075"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 20270,
+    "type": "turn/started",
+    "createdAt": 1735906851010,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0083"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 20563,
+    "type": "turn/started",
+    "createdAt": 1735907105652,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0084"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 21404,
+    "type": "turn/completed",
+    "createdAt": 1735907568914,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0083"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 21420,
+    "type": "turn/started",
+    "createdAt": 1735907580772,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0085"
+    },
+    "data": {
+      "parentToolCallId": "fixture0062"
+    }
+  },
+  {
+    "seq": 21591,
+    "type": "turn/started",
+    "createdAt": 1735907648337,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0086"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 21752,
+    "type": "turn/completed",
+    "createdAt": 1735907697946,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0086"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 21820,
+    "type": "turn/completed",
+    "createdAt": 1735907707989,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0085"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 21832,
+    "type": "item/started",
+    "createdAt": 1735907714736,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0084"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0087"
+      }
+    }
+  },
+  {
+    "seq": 21857,
+    "type": "item/started",
+    "createdAt": 1735907761048,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0045"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0088"
+      }
+    }
+  },
+  {
+    "seq": 22460,
+    "type": "turn/started",
+    "createdAt": 1735908300300,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0089"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 22604,
+    "type": "item/started",
+    "createdAt": 1735908348930,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0089"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0090"
+      }
+    }
+  },
+  {
+    "seq": 23613,
+    "type": "turn/completed",
+    "createdAt": 1735908752627,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0084"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 23641,
+    "type": "turn/started",
+    "createdAt": 1735908780120,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0091"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 24505,
+    "type": "turn/completed",
+    "createdAt": 1735909119025,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0089"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 24552,
+    "type": "turn/started",
+    "createdAt": 1735909151779,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0092"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 24866,
+    "type": "turn/completed",
+    "createdAt": 1735909284020,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0092"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 25024,
+    "type": "item/started",
+    "createdAt": 1735909385911,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0091"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0093"
+      }
+    }
+  },
+  {
+    "seq": 25126,
+    "type": "turn/completed",
+    "createdAt": 1735909539375,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0091"
+    },
+    "data": {
+      "status": "interrupted"
+    }
+  },
+  {
+    "seq": 25131,
+    "type": "turn/started",
+    "createdAt": 1735909546711,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0094"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 25371,
+    "type": "turn/completed",
+    "createdAt": 1735909689130,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0094"
+    },
+    "data": {
+      "status": "interrupted"
+    }
+  },
+  {
+    "seq": 25376,
+    "type": "turn/started",
+    "createdAt": 1735909697429,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0095"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 25420,
+    "type": "turn/completed",
+    "createdAt": 1735909708743,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0095"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 25761,
+    "type": "turn/started",
+    "createdAt": 1735910328944,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0096"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 25913,
+    "type": "turn/completed",
+    "createdAt": 1735910415347,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0096"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 26012,
+    "type": "item/started",
+    "createdAt": 1735910723807,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0045"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0097"
+      }
+    }
+  },
+  {
+    "seq": 26158,
+    "type": "turn/started",
+    "createdAt": 1735911179409,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0098"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 27206,
+    "type": "turn/completed",
+    "createdAt": 1735911774896,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0098"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 27242,
+    "type": "turn/started",
+    "createdAt": 1735911830373,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0099"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 27340,
+    "type": "item/started",
+    "createdAt": 1735911883799,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0099"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0100"
+      }
+    }
+  },
+  {
+    "seq": 27992,
+    "type": "turn/completed",
+    "createdAt": 1735912332604,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0099"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 28003,
+    "type": "turn/started",
+    "createdAt": 1735912352943,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0101"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 28062,
+    "type": "turn/started",
+    "createdAt": 1735912374304,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0102"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 28106,
+    "type": "item/started",
+    "createdAt": 1735912391578,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0102"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0103"
+      }
+    }
+  },
+  {
+    "seq": 28507,
+    "type": "turn/started",
+    "createdAt": 1735912627088,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0104"
+    },
+    "data": {
+      "parentToolCallId": "fixture0105"
+    }
+  },
+  {
+    "seq": 28523,
+    "type": "item/started",
+    "createdAt": 1735912629768,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0101"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0106"
+      }
+    }
+  },
+  {
+    "seq": 29044,
+    "type": "turn/completed",
+    "createdAt": 1735912762279,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0102"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 29103,
+    "type": "turn/started",
+    "createdAt": 1735912784313,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0107"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 29653,
+    "type": "turn/completed",
+    "createdAt": 1735912958361,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0104"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 29726,
+    "type": "turn/completed",
+    "createdAt": 1735912972567,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0101"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 29739,
+    "type": "turn/started",
+    "createdAt": 1735913000859,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0108"
+    },
+    "data": {
+      "parentToolCallId": "fixture0105"
+    }
+  },
+  {
+    "seq": 29834,
+    "type": "item/started",
+    "createdAt": 1735913036906,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0108"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0109"
+      }
+    }
+  },
+  {
+    "seq": 30026,
+    "type": "turn/completed",
+    "createdAt": 1735913120978,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0107"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 30063,
+    "type": "item/started",
+    "createdAt": 1735913141305,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0045"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0110"
+      }
+    }
+  },
+  {
+    "seq": 30330,
+    "type": "turn/started",
+    "createdAt": 1735913421990,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0111"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 30736,
+    "type": "turn/started",
+    "createdAt": 1735913619049,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0112"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 31380,
+    "type": "turn/completed",
+    "createdAt": 1735913773435,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0112"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 32038,
+    "type": "item/started",
+    "createdAt": 1735914037088,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0108"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0113"
+      }
+    }
+  },
+  {
+    "seq": 32479,
+    "type": "turn/started",
+    "createdAt": 1735914202444,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0114"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 32564,
+    "type": "turn/completed",
+    "createdAt": 1735914213445,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0111"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 32749,
+    "type": "turn/started",
+    "createdAt": 1735914263379,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0115"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 32843,
+    "type": "item/started",
+    "createdAt": 1735914294260,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0115"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0116"
+      }
+    }
+  },
+  {
+    "seq": 33216,
+    "type": "turn/completed",
+    "createdAt": 1735914431861,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0108"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 33328,
+    "type": "turn/started",
+    "createdAt": 1735914464223,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0117"
+    },
+    "data": {
+      "parentToolCallId": "fixture0118"
+    }
+  },
+  {
+    "seq": 34072,
+    "type": "item/started",
+    "createdAt": 1735914700244,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0114"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0119"
+      }
+    }
+  },
+  {
+    "seq": 35167,
+    "type": "item/started",
+    "createdAt": 1735915048769,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0117"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0120"
+      }
+    }
+  },
+  {
+    "seq": 35477,
+    "type": "turn/completed",
+    "createdAt": 1735915151355,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0115"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 35602,
+    "type": "turn/started",
+    "createdAt": 1735915224399,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0121"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 36375,
+    "type": "item/started",
+    "createdAt": 1735915524359,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0045"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0122"
+      }
+    }
+  },
+  {
+    "seq": 36501,
+    "type": "turn/completed",
+    "createdAt": 1735915535803,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0121"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 36727,
+    "type": "turn/completed",
+    "createdAt": 1735915613128,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0114"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 36819,
+    "type": "turn/completed",
+    "createdAt": 1735915696853,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0117"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 36862,
+    "type": "turn/started",
+    "createdAt": 1735915849169,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0123"
+    },
+    "data": {
+      "parentToolCallId": "fixture0049"
+    }
+  },
+  {
+    "seq": 36868,
+    "type": "turn/started",
+    "createdAt": 1735915857413,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0124"
+    },
+    "data": {
+      "parentToolCallId": "fixture0047"
+    }
+  },
+  {
+    "seq": 36874,
+    "type": "turn/started",
+    "createdAt": 1735915863229,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0125"
+    },
+    "data": {
+      "parentToolCallId": "fixture0118"
+    }
+  },
+  {
+    "seq": 37081,
+    "type": "item/started",
+    "createdAt": 1735915916496,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0123"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0126"
+      }
+    }
+  },
+  {
+    "seq": 37378,
+    "type": "turn/completed",
+    "createdAt": 1735916012022,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0125"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 37394,
+    "type": "turn/started",
+    "createdAt": 1735916026539,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0127"
+    },
+    "data": {
+      "parentToolCallId": "fixture0118"
+    }
+  },
+  {
+    "seq": 37634,
+    "type": "provider/error",
+    "createdAt": 1735916098259,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0045"
+    },
+    "data": {
+      "detail": "You’ve hit your usage limit."
+    }
+  },
+  {
+    "seq": 37638,
+    "type": "turn/completed",
+    "createdAt": 1735916098544,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0045"
+    },
+    "data": {
+      "status": "failed"
+    }
+  },
+  {
+    "seq": 37683,
+    "type": "turn/completed",
+    "createdAt": 1735916104427,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0127"
+    },
+    "data": {
+      "status": "completed"
+    }
+  },
+  {
+    "seq": 37697,
+    "type": "provider/error",
+    "createdAt": 1735916105544,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0123"
+    },
+    "data": {
+      "detail": "You’ve hit your usage limit."
+    }
+  },
+  {
+    "seq": 37698,
+    "type": "turn/completed",
+    "createdAt": 1735916105552,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0123"
+    },
+    "data": {
+      "status": "failed"
+    }
+  },
+  {
+    "seq": 37705,
+    "type": "item/started",
+    "createdAt": 1735916143119,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0124"
+    },
+    "data": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "fixture0128"
+      }
+    }
+  },
+  {
+    "seq": 37706,
+    "type": "provider/error",
+    "createdAt": 1735916143320,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0124"
+    },
+    "data": {
+      "detail": "Error running remote compact task: You’ve hit your usage limit."
+    }
+  },
+  {
+    "seq": 37707,
+    "type": "turn/completed",
+    "createdAt": 1735916143334,
+    "scope": {
+      "kind": "turn",
+      "turnId": "fixture0124"
+    },
+    "data": {
+      "status": "failed"
+    }
+  }
+]
